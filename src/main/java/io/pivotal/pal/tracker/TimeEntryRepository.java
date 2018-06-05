@@ -1,7 +1,5 @@
 package io.pivotal.pal.tracker;
 
-import org.springframework.http.ResponseEntity;
-
 import java.util.List;
 
 public interface TimeEntryRepository {
@@ -13,5 +11,5 @@ public interface TimeEntryRepository {
 
     TimeEntry update(long id, TimeEntry entry);
 
-    ResponseEntity<TimeEntry> delete(long id);
+    TimeEntry delete(long id);
 }
