@@ -5,4 +5,4 @@ applications:
   routes:
     - route: john-pal-tracker.apps.pikes.pal.pivotal.io
   services:
-    - tracker-database-js
+    - cf_ce745a68_d26b_417c_aa81_15e3a3630968
